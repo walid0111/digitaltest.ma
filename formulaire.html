@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-color: rgb(162, 232, 232);
+            }
+            .titre{
+                font-size: 40px;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+            }
+            table{                
+
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(255, 255, 255, 0.667);
+                margin: 40px;
+                padding: 10px;
+                text-align: center;
+                border-radius: 9px;
+                font-size: 15px;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              
+                
+                }
+               
+            
+            table1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(255, 255, 255, 0.667);
+                margin: 40px;
+                padding: 10px;
+                text-align: center;
+                border-radius: 12px;
+                font-size: 19px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+              
+            }
+            table2{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(255, 255, 255, 0.667);
+                margin: 40px;
+                padding: 10px;
+                text-align: center;
+                border-radius: 12px;
+                font-size: 19px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: rgb(175, 30, 30);
+              
+            }
+           
+        </style>
+    </head>
+
+    <body>
+        <p class="titre">Digital Store</p>
+
+        <div >
+
+            <table1>
+                Visualiez vos points et suivez votre commande en se connectant ci dessous 
+
+            </table1>
+            <table >
+                <tr>
+                    
+                    <td>
+
+                        <form action="connect.php" method="post">
+                            <input type="email" name="mail" value="" id="" placeholder="mail"><br>
+                            <input type="text" name="pass" value="" placeholder="pass"id=""><br>
+                            <input type="submit" name="sub"value="se connecter">
+                            
+                        </form>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        
+                        <form action="" method="post">
+                            <p>Pas encore inscrit ?</p> 
+                            <a href="create.html">Creer un compte</a>
+                            
+                        </form>
+                    </td>
+                </tr>
+            </table>
+            <table2>
+                Remportez des points pour acheter gratuitement ou avoir des promotions 
+            </table2>
+            
+            
+        </div>
+    </body>
+</html>
